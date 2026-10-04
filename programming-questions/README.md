@@ -1,14 +1,14 @@
 # Programming Questions — Optimized Solutions
 
-This folder contains optimized, exam-ready solutions for the 9 programming questions.
+This folder contains optimized, exam-ready solutions for the 9 circled programming questions.
 
 ## Structure
 
 - java/
-  - SingleInheritance.java
   - WordCount.java
   - PascalsTriangle.java
 - typescript/
+  - SingleInheritance.ts
   - Stack.ts
   - ArrayAverage.ts
   - EvenOdd.ts
@@ -21,7 +21,7 @@ This folder contains optimized, exam-ready solutions for the 9 programming quest
 
 | Program | Time | Auxiliary Space |
 |---|---:|---:|
-| Java Single Inheritance | O(1) | O(1) |
+| TypeScript Single Inheritance | O(1) | O(1) |
 | Java Word Count | O(n) | O(1) |
 | Java Pascal's Triangle | O(n^2) | O(1) |
 | TypeScript Stack operations | O(1) per operation | O(n) for stack |
@@ -33,6 +33,7 @@ This folder contains optimized, exam-ready solutions for the 9 programming quest
 
 ## Notes
 
+- The first question is implemented in TypeScript because the question explicitly asks for a TypeScript program demonstrating single inheritance, even though it appears under the Java Programming Questions column.
 - Word count avoids creating a temporary array of words.
 - Pascal's Triangle generates each value from the previous value.
 - Set provides O(n) expected time for unique values.
